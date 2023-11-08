@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="homepage.css">
     <head>
         <title>Violin News</title>
+        <link rel="stylesheet" href="homepage.css">
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="fav.png">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
     </head>
     <header>
         <h1>Your Best Source of Violin News!</h1>
@@ -17,46 +20,56 @@
         </ul>
     </nav>
     <div class="sign_up">
-        <p>Sign Up to Recieve Unique Benefits!</p>
-        <label>Enter your email:</label>
+        <p>Sign Up to Recieve Premium Benefits!</p>
         <form>
-            <input type="text">
-            <button type="reset">Sign-Up!</button>
+            First Name:<input type="text" class="form">
+            Last Name:<input type="text" class="form">
+            <br>
+            Email:<input type="text" class="form">
+            Date of Birth:<input type="text" class="form">
+            <br>
+            <button type="submit" class="button">Sign-Up!</button>
         </form>
     </div>
     <main>
         <header>
             <table>
                 <tr>
-                <td>
-                    <h2>
+                    <td rowspan="2">
                         <figure>
-                        <img src="strad.jpg" width="100%" height="100%">
-                        <figcaption>Luthier produces a perfect replica of a Stradivarius!</figcaption>
+                            <img src="strad.jpg" class="im">
+                            <figcaption>Luthier produces a perfect replica of a Stradivarius!</figcaption>
                         </figure>
-                    </h2>
-                </td>
-                <td>
-                    <h2>
+                    </td>
+                    <td>
                         <figure>
-                        <img src="squid.jpg" width="100%" height="100%">
-                        <figcaption>Squilliam performs a record-breaking feat!</figcaption>
+                            <img src="squill.jpg" class="im">
+                            <figcaption>Squilliam performs a record-breaking feat!</figcaption>
                         </figure>
-                     </h2>
-                </td>
-                <td>
-                    <h2>
+                    </td>
+                    <td rowspan="2">
                         <figure>
-                            <a href="violin.html"><img src="violinad.png" width="100%" height="100%"></a>
+                            <a href="violin.html"><img src="violinad.png" class="im"></a>
                             <figcaption>Simple and easy lessons for violin from the safety of your home!</figcaption>
                         </figure>
-                    </h2>
-                </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="patrick.png" class="im">
+                            <figcaption>Patrick, Star violinist has passed on as of Thursday.</figcaption>
+                        </figure>
+                    </td>
                 </tr>
             </table>
         </header>
     </main>
     <footer>
-        <small>See our <a href="about_us.html">About Us</a> page for more information about our company!</small>
+        <small>
+            See our <a href="about_us.html">About Us</a> page for more information about our company!
+            <br>
+            <a href="outlook.com"><i>ryan.nickelman@stu.fortthomas.kyschools.us</i></a>
+        </small>
     </footer>
 </html>
