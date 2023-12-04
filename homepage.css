@@ -1,9 +1,9 @@
 body {
     background-color: rgb(162, 114, 114);
     font-size: 65%;
-    margin: 0%;
+    margin: 0;
     color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 ul, li {
     margin: 0%;
@@ -40,7 +40,9 @@ li a:hover {
     font-size: 125%;
 }
 h2 {
-    font-size: xx-large;
+    font-size: 285%;
+    text-align: center;
+    padding-top: 2%;
 }
 form {
     display: inline;
@@ -98,10 +100,10 @@ td a {
 }
 .pad {
     padding: 1%;
-    font-size: x-large;
+    font-size: 225%;
 }
 .im {
-    height: 28vh;
+    height: 18vh;
     width: 100%;
 }
 .less {
@@ -112,11 +114,89 @@ td a {
     padding: 1%;
 }
 .vh {
-    height: 28vh;
+    height: 16vh;
 }
 .button {
     border-radius: 6px;
 }
+.form {
+    border-radius: 6px;
+}
+td {
+    border-radius: 6px;
+}
 table {
     width: 100%;
+}
+.ap {
+    font-size: 145%;
+    padding: 2%;
+    text-align: center;
+}
+h1 a {
+    color: aliceblue;
+}
+.form2 {
+    border-radius: 6px;
+    margin-left: 40%;
+}
+.fp {
+    background-color: aliceblue;
+    color: black;
+    display: inline;
+    font-size: 325%;
+}
+.forum {
+    background-color: black;
+    color: black;
+}
+.fd1 {
+    background-color: aliceblue;
+    width: 20%;
+    padding-left: 1%;
+    margin-left: 25%;
+    padding-top: 2%;
+}
+.fd2 {
+    background-color: aliceblue;
+    width: 20%;
+    padding-left: 1%;
+    margin-left: 65%;
+    padding-top: 2%;
+}
+.ford {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.forp {
+    margin-left: -5%;
+    font-size: 1%;
+    background-color: rgb(100, 55, 55);
+    margin-top: 2%;
+    padding: 2%;
+    visibility: hidden;
+    text-align: center;
+    border-style: solid;
+}
+.forp2 {
+    margin-left: -5%;
+    font-size: 1%;
+    background-color: rgb(100, 55, 55);
+    margin-top: 2%;
+    padding: 2%;
+    visibility: hidden;
+    text-align: center;
+    border-style: solid;
+}
+.forum:checked ~ .forp {
+    visibility: visible;
+    font-size: 195%;
+}
+.forum:checked ~ .forp2 {
+    visibility: visible;
+    font-size: 195%;
+}
+.les {
+    height: 20%;
+    width: 20%;
 }
