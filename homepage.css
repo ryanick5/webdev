@@ -165,7 +165,7 @@ h1 a {
     padding-top: 2%;
 }
 .ford {
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 3%;
 }
 .forp {
@@ -190,11 +190,11 @@ h1 a {
 }
 .forum:checked ~ .forp {
     visibility: visible;
-    font-size: 195%;
+    font-size: 185%;
 }
 .forum:checked ~ .forp2 {
     visibility: visible;
-    font-size: 195%;
+    font-size: 185%;
 }
 .les {
     height: 20%;
