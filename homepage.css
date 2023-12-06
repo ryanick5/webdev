@@ -202,3 +202,18 @@ h1 a {
 .viol {
     width: 20%;
 }
+aside {
+    width: 40%;
+    padding: 2.0202%;
+    background-color: palegoldenrod;
+    max-width: 200px;
+    min-height: 180px;
+    margin: 1.5em 2.0202% 0 0;
+    margin-top: 0;
+}
+.us {
+    background-color: rgb(75, 40, 35);
+    text-align: center;
+    padding-bottom: 1%;
+    margin: 2%;
+}
