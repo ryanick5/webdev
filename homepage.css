@@ -144,7 +144,7 @@ h1 a {
     background-color: aliceblue;
     color: black;
     display: inline;
-    font-size: 285%;
+    font-size: 325%;
 }
 .forum {
     background-color: black;
@@ -165,8 +165,8 @@ h1 a {
     padding-top: 2%;
 }
 .ford {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .forp {
     margin-left: -5%;
@@ -190,13 +190,15 @@ h1 a {
 }
 .forum:checked ~ .forp {
     visibility: visible;
-    font-size: 185%;
+    font-size: 195%;
 }
 .forum:checked ~ .forp2 {
     visibility: visible;
-    font-size: 185%;
+    font-size: 195%;
 }
-.les {
-    height: 20%;
+.in {
+    height: 0;
+}
+.viol {
     width: 20%;
 }
